@@ -1,12 +1,12 @@
-interations = 0
+avoided_cables = 0
 
 print("How many live cables must I avoid?")
 
-live_cables = int(input())
+cables_to_avoid = int(input())
 
-while(interations < live_cables):
+while(avoided_cables < cables_to_avoid):
 
-    interations = interations + 1
-    print("Avoiding...", interations, "live cables avoided.")
+    avoided_cables = avoided_cables + 1
+    print("Avoiding...", avoided_cables, "live cables avoided.")
 
 print("All live cables have been avoided.")
