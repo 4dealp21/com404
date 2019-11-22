@@ -1,5 +1,5 @@
 def display_ladder(steps):
-    for ladder in range(0, steps, 1):
+    for (ladder in range(0, steps, 1)):
         print("| |", "\n***")
 
 def create_ladder():
